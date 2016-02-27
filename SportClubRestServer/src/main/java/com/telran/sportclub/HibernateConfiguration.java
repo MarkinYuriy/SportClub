@@ -15,7 +15,7 @@ import org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBea
 public class HibernateConfiguration {
 
 	@Value("#{dataSource}")
-	
+	///
 	private DataSource dataSource;
 
 	@Bean
